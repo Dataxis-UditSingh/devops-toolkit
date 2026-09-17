@@ -8,7 +8,6 @@ import {
   GitBranch,
   Layers3,
   Package,
-  Play,
   Rocket,
   Server,
   Sparkles,
