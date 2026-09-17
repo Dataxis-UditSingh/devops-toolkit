@@ -17,6 +17,7 @@ import {
   Workflow,
   Zap,
 } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 const technologies = [
   { name: "React", icon: Code2 },
@@ -134,7 +135,7 @@ function App() {
             rel="noreferrer"
             className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.05] px-4 py-2 text-sm font-medium transition duration-300 hover:border-white/20 hover:bg-white/10"
           >
-            {/* <Github className="h-4 w-4" /> */}
+            <FaGithub className="h-4 w-4" />
             <span className="hidden sm:inline">GitHub</span>
           </a>
         </div>
@@ -142,7 +143,7 @@ function App() {
 
       <main>
         {/* Hero */}
-        <section className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 pb-20 pt-32 lg:px-8">
+        <section className="relative mx-auto flex min-h-screen max-w-7xl items-center px-3 pb-20 pt-28 lg:px-8">
           <div className="grid w-full items-center gap-16 lg:grid-cols-[1.05fr_.95fr]">
             <div>
               {/* Badge */}
@@ -181,7 +182,7 @@ function App() {
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-5 py-3 text-sm font-medium text-white/75 transition duration-300 hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.08] hover:text-white"
                 >
-                  {/* <Github className="h-4 w-4" /> */}
+                  <FaGithub className="h-4 w-4" />
                   View Repository
                 </a>
               </div>
@@ -312,7 +313,7 @@ function App() {
           id="stack"
           className="border-y border-white/[0.06] bg-white/[0.015]"
         >
-          <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+          <div className="mx-auto max-w-7xl px-3 py-10 lg:px-8">
             <div className="mb-7 text-center text-xs uppercase tracking-[0.2em] text-white/25">
               Everything starts with the right stack
             </div>
@@ -332,7 +333,7 @@ function App() {
         </section>
 
         {/* Features */}
-        <section id="features" className="mx-auto max-w-7xl px-6 py-28 lg:px-8">
+        <section id="features" className="mx-auto max-w-7xl px-3 py-10 lg:px-8">
           <div className="max-w-2xl">
             <div className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-violet-300/70">
               Why this template
@@ -375,7 +376,7 @@ function App() {
           id="structure"
           className="border-y border-white/[0.06] bg-white/[0.015]"
         >
-          <div className="mx-auto max-w-7xl px-6 py-28 lg:px-8">
+          <div className="mx-auto max-w-7xl px-3 py-10 lg:px-8">
             <div className="grid gap-16 lg:grid-cols-[.8fr_1.2fr] lg:items-center">
               <div>
                 <div className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-cyan-300/70">
@@ -443,7 +444,7 @@ function App() {
         </section>
 
         {/* Workflow */}
-        <section className="mx-auto max-w-7xl px-6 py-28 lg:px-8">
+        <section className="mx-auto max-w-7xl px-3 py-10 lg:px-8">
           <div className="text-center">
             <div className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-emerald-300/70">
               Simple workflow
@@ -500,7 +501,7 @@ function App() {
         </section>
 
         {/* CTA */}
-        <section className="relative mx-auto max-w-5xl px-6 pb-28 lg:px-8">
+        <section className="relative mx-auto max-w-5xl px-3 pb-10 lg:px-8">
           <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.07] via-white/[0.025] to-transparent px-6 py-16 text-center sm:px-12">
             <div className="pointer-events-none absolute left-1/2 top-0 h-40 w-72 -translate-x-1/2 rounded-full bg-violet-500/15 blur-[90px]" />
 
@@ -525,7 +526,7 @@ function App() {
                   rel="noreferrer"
                   className="group inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 text-sm font-semibold text-black transition duration-300 hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-xl hover:shadow-white/10"
                 >
-                  {/* <Github className="h-4 w-4" /> */}
+                  <FaGithub className="h-4 w-4" />
                   Get the Template
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
